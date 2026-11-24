@@ -1,174 +1,129 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>orcaxo | موقع لمحلك وتحليل بيانات بالـ AI</title>
-<meta name="description" content="orcaxo: موقع لمحلك مجاني لمدة 60 يوم، وتحليل بيانات بالذكاء الاصطناعي مجاني لمدة 7 تحليلات. اطلب الخدمة على واتساب.">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#060B14">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090d18">
+<title>Orcaxo | مواقع ويب ذكية وأدوات رقمية وتحليل بيانات</title>
+<meta name="description" content="Orcaxo نبني مواقع ويب وأدوات رقمية عملية للمشروعات، ونساعد أصحاب الأعمال على فهم بياناتهم واتخاذ قرارات أفضل. اكتشف خدماتنا ومشاريعنا.">
+<meta name="keywords" content="إنشاء مواقع, تصميم مواقع, تطوير مواقع, تحليل بيانات, أدوات رقمية, مواقع للشركات, Orcaxo">
 <link rel="canonical" href="https://orcaxo.com/">
 <meta property="og:type" content="website">
-<meta property="og:locale" content="ar_EG">
-<meta property="og:site_name" content="orcaxo">
+<meta property="og:title" content="Orcaxo | نبني أفكارًا رقمية قابلة للاستخدام">
+<meta property="og:description" content="مواقع ويب، أدوات رقمية، وتحليل بيانات يساعدك على اتخاذ قرارات أفضل.">
 <meta property="og:url" content="https://orcaxo.com/">
-<meta property="og:title" content="orcaxo | موقع لمحلك وتحليل بيانات بالـ AI">
-<meta property="og:description" content="موقع مجاني 60 يوم وتحليل بيانات بالـ AI مجاني 7 تحليلات. نخلي محلك يبيع وهو نايم.">
-<meta name="twitter:card" content="summary">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ProfessionalService","name":"orcaxo","url":"https://orcaxo.com/","telephone":"+201505761466","description":"إنشاء مواقع للمحلات وتحليل بيانات المبيعات بالذكاء الاصطناعي.","knowsLanguage":"ar","makesOffer":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"إنشاء موقع"},"price":"0","priceCurrency":"EGP","description":"مجاني لمدة 60 يوم"},{"@type":"Offer","itemOffered":{"@type":"Service","name":"تحليل بيانات بالذكاء الاصطناعي"},"price":"0","priceCurrency":"EGP","description":"7 تحليلات مجانية"}]}
-</script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800;900&display=swap">
+<meta property="og:site_name" content="Orcaxo">
 <style>
-:root{--bg:#060B14;--bg2:#0A1424;--card:#0D1A2E;--line:#1D3350;--text:#EAF1F8;--mut:#93A9C4;--blue:#4A9FE0;--cyan:#22D3EE;--gold:#F5B942;--wa:#25D366;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px);scroll-behavior:smooth}
-*,*::before,*::after{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--text);font-family:"Cairo","Segoe UI",Tahoma,Arial,sans-serif;line-height:1.7;overflow-x:hidden;
-background-image:radial-gradient(circle at 1px 1px,#16253D 1px,transparent 0);background-size:28px 28px}
-body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:rgba(6,11,20,.92);z-index:30}
-.wrap{max-width:980px;margin:0 auto;padding:0 20px}
-.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(6,11,20,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
-.brand{font-weight:900;font-size:22px;letter-spacing:2px;direction:ltr}
-.brand b{color:var(--blue)}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--wa);color:#04210F;font-weight:800;font-size:17px;padding:14px 28px;border-radius:14px;text-decoration:none;border:0;cursor:pointer;box-shadow:0 0 0 0 rgba(37,211,102,.6);animation:pulse 2.4s infinite}
-.btn.sm{font-size:14px;padding:8px 16px;border-radius:10px;animation:none}
-.btn.out{background:transparent;color:var(--wa);border:1.5px solid var(--wa);animation:none}
-@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.55)}70%{box-shadow:0 0 0 16px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
-.hero{position:relative;text-align:center;padding:44px 0 36px}
-.hero::before{content:"";position:absolute;top:-40px;left:50%;width:520px;height:520px;max-width:140vw;transform:translateX(-50%);background:radial-gradient(circle,rgba(74,159,224,.28),transparent 65%);pointer-events:none}
-.badge{position:relative;display:inline-block;background:rgba(245,185,66,.12);color:var(--gold);border:1px solid rgba(245,185,66,.5);padding:6px 16px;border-radius:99px;font-weight:700;font-size:14px}
-h1{position:relative;font-size:clamp(34px,9vw,60px);line-height:1.25;font-weight:900;margin:18px 0 12px}
-h1 span{background:linear-gradient(90deg,var(--cyan),var(--blue));-webkit-background-clip:text;background-clip:text;color:transparent}
-.sub{position:relative;color:var(--mut);font-size:clamp(16px,4.2vw,20px);max-width:560px;margin:0 auto 22px}
-.orca{position:relative;width:min(560px,100%);margin:6px auto 4px;display:block;animation:float 5s ease-in-out infinite;filter:drop-shadow(0 12px 30px rgba(34,211,238,.25))}
-@keyframes float{50%{transform:translateY(-10px)}}
-.flow{animation:flow 1.6s linear infinite}
-@keyframes flow{to{stroke-dashoffset:-44}}
-.cta{position:relative;margin-top:22px}
-.num{margin-top:12px;color:var(--mut);font-size:15px}
-.num a{display:inline-block;direction:ltr;color:var(--text);font-weight:800;font-size:20px;letter-spacing:1px;text-decoration:none;margin-top:2px}
-h2{font-size:clamp(26px,6.5vw,38px);font-weight:900;margin:0 0 8px;text-align:center}
-.lead{color:var(--mut);text-align:center;margin:0 auto 26px;max-width:520px}
-section{padding:34px 0}
-.offers{display:grid;gap:16px;grid-template-columns:1fr}
-.offer{position:relative;overflow:hidden;background:linear-gradient(145deg,#12233F,#0A1527);border:1px solid rgba(245,185,66,.55);border-radius:22px;padding:26px 22px;text-align:center;box-shadow:0 0 40px rgba(245,185,66,.12)}
-.offer::after{content:"";position:absolute;inset:auto -30% -60% -30%;height:70%;background:radial-gradient(ellipse,rgba(245,185,66,.18),transparent 70%)}
-.big{position:relative;font-size:84px;font-weight:900;line-height:1;color:var(--gold);text-shadow:0 0 28px rgba(245,185,66,.55)}
-.unit{position:relative;font-size:22px;font-weight:800;margin-top:4px}
-.free{position:relative;display:inline-block;margin-top:10px;background:var(--gold);color:#2A1C00;font-weight:900;padding:4px 16px;border-radius:8px;font-size:15px}
-.offer p{position:relative;color:var(--mut);margin:12px 0 0;font-size:15px}
-.cards{display:grid;gap:18px;grid-template-columns:1fr}
-.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:24px 22px;position:relative}
-.card::before{content:"";position:absolute;top:0;right:22px;left:22px;height:2px;background:linear-gradient(90deg,transparent,var(--cyan),transparent)}
-.ico{width:48px;height:48px;border-radius:14px;background:rgba(74,159,224,.14);border:1px solid var(--line);display:grid;place-items:center;font-size:24px;margin-bottom:12px}
-.card h3{margin:0 0 6px;font-size:24px;font-weight:900}
-.tag{display:inline-block;background:rgba(245,185,66,.14);color:var(--gold);border-radius:8px;padding:2px 10px;font-size:13px;font-weight:800;margin-bottom:10px}
-.card p{color:var(--mut);margin:0 0 14px}
-.card h4{margin:0 0 6px;font-size:15px;color:var(--blue)}
-.card ul{margin:0 0 20px;padding:0;list-style:none}
-.card li{padding:4px 22px 4px 0;position:relative;font-size:15px}
-.card li::before{content:"›";position:absolute;right:0;color:var(--cyan);font-weight:900}
-.final{margin:10px 0 40px;text-align:center;background:linear-gradient(160deg,#10223F,#08111F);border:1px solid var(--line);border-radius:26px;padding:36px 20px;position:relative;overflow:hidden}
-.final::before{content:"";position:absolute;top:-80px;left:50%;width:380px;height:380px;transform:translateX(-50%);background:radial-gradient(circle,rgba(34,211,238,.2),transparent 65%)}
-.final h2,.final .num,.final .cta{position:relative}
-footer{border-top:1px solid var(--line);padding:22px 0 28px;text-align:center;color:var(--mut);font-size:14px}
-footer b{color:var(--text);direction:ltr;display:inline-block;letter-spacing:2px}
-@media(min-width:700px){.offers,.cards{grid-template-columns:1fr 1fr}.hero{padding:64px 0 44px}}
-@media(prefers-reduced-motion:reduce){.orca,.flow,.btn{animation:none}html{scroll-behavior:auto}}
+:root{--bg:#090d18;--surface:#111827;--surface2:#151e2f;--line:#263248;--text:#f4f7fb;--muted:#a5b1c4;--accent:#66e0bd;--accent2:#86a9ff;--max:1120px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% -15%,#162b3c 0,transparent 38%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.75}
+a{color:inherit;text-decoration:none}button{font:inherit}.container{width:min(calc(100% - 36px),var(--max));margin:auto}
+header{position:sticky;top:0;z-index:10;background:#090d18e8;backdrop-filter:blur(14px);border-bottom:1px solid #202b3c}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:10px;font-size:21px;font-weight:850;letter-spacing:.4px}.logo{width:37px;height:37px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#07111b;display:grid;place-items:center;font-weight:950}
+nav{display:flex;align-items:center;gap:22px;color:#c1cbd8;font-size:14px}nav a:hover{color:var(--accent)}.lang{border:1px solid var(--line);background:var(--surface);color:white;padding:8px 12px;border-radius:10px;cursor:pointer}
+.hero{padding:92px 0 68px;display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:40px}.eyebrow{display:inline-flex;border:1px solid #285348;color:var(--accent);background:#10241f;padding:6px 12px;border-radius:30px;font-size:13px}
+h1{font-size:clamp(34px,5.2vw,60px);line-height:1.2;letter-spacing:-1.4px;margin:18px 0}.gradient{background:linear-gradient(90deg,var(--accent),#a6bcff);background-clip:text;color:transparent}.lead{color:var(--muted);font-size:18px;max-width:650px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:12px;padding:12px 19px;font-weight:750;border:1px solid transparent;transition:.2s}.btn.primary{background:var(--accent);color:#08151a}.btn.secondary{background:#141e2e;border-color:#334258;color:#eef3fa}.btn:hover{transform:translateY(-2px)}.hero-visual{border:1px solid #2a394c;background:linear-gradient(145deg,#172437,#0c1422);border-radius:25px;padding:25px;box-shadow:0 25px 80px #0005;position:relative;overflow:hidden}.hero-visual:before{content:"";position:absolute;width:210px;height:210px;border-radius:50%;background:#65e0bd18;top:-90px;left:-80px}.terminal{border:1px solid #2b3c50;border-radius:15px;background:#0b111c;padding:18px;position:relative}.dots{display:flex;gap:6px;margin-bottom:17px}.dots i{width:8px;height:8px;border-radius:50%;background:#506076}.terminal-line{font-family:ui-monospace,monospace;color:#91a8c6;font-size:14px;margin:8px 0}.terminal-line b{color:var(--accent)}.mini-cards{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:15px}.mini{background:#162234;border:1px solid #2a394c;padding:14px;border-radius:12px}.mini strong{display:block;color:var(--accent);font-size:19px}.mini span{font-size:12px;color:var(--muted)}
+section{padding:70px 0}.section-head{max-width:740px;margin-bottom:30px}.section-head h2{font-size:clamp(26px,3.5vw,39px);margin:0 0 12px}.section-head p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.service{padding:24px;border:1px solid var(--line);background:linear-gradient(145deg,#141e2d,#0e1521);border-radius:18px}.service-icon{width:45px;height:45px;display:grid;place-items:center;border-radius:13px;background:#1c3040;font-size:22px;margin-bottom:12px}.service h3{margin:4px 0 8px;font-size:20px}.service p{margin:0;color:var(--muted)}.bullets{padding:0 20px;color:#c4cfdd;margin:15px 0 0}.bullets li{margin:6px 0}
+.offer{border:1px solid #2a574b;background:linear-gradient(120deg,#10251f,#101b2b);border-radius:18px;padding:25px;display:flex;justify-content:space-between;align-items:center;gap:24px}.offer h3{margin:0 0 7px;font-size:23px;color:var(--accent)}.offer p{margin:0;color:var(--muted)}.offer-tag{white-space:nowrap;border:1px solid #427a68;color:var(--accent);border-radius:12px;padding:10px 15px;font-weight:800}
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.project{border:1px solid var(--line);background:var(--surface);border-radius:17px;overflow:hidden;display:flex;flex-direction:column}.project-top{height:125px;padding:20px;display:flex;align-items:flex-end;background:linear-gradient(135deg,#182b3e,#0e1725);position:relative;overflow:hidden}.project-top:after{content:"";position:absolute;width:170px;height:170px;border:1px solid #ffffff14;border-radius:50%;top:-70px;left:-40px}.project-label{font-size:24px;font-weight:850;letter-spacing:.3px}.project-body{padding:17px;display:flex;flex-direction:column;flex:1}.project-body h3{margin:0 0 7px;font-size:18px}.project-body p{color:var(--muted);font-size:14px;margin:0 0 15px}.project-link{margin-top:auto;color:var(--accent);font-weight:750;font-size:14px}
+.project .tag{display:inline-block;font-size:11px;border:1px solid #334258;color:#b7c5d8;border-radius:30px;padding:3px 9px;margin-bottom:10px;width:max-content}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.step{border:1px solid var(--line);border-radius:16px;background:#111a28;padding:20px}.step-num{font-size:13px;color:var(--accent);font-weight:800}.step h3{margin:5px 0}.step p{margin:0;color:var(--muted);font-size:14px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:center}.about-box{border:1px solid var(--line);border-radius:18px;padding:25px;background:#111a28}.about-box p{color:var(--muted)}.values{display:grid;gap:10px}.value{padding:14px;border:1px solid var(--line);border-radius:12px;background:#111a28}.value b{color:var(--accent)}
+.faq{display:grid;gap:10px;max-width:850px}.faq details{border:1px solid var(--line);border-radius:13px;padding:15px 18px;background:#111a28}.faq summary{font-weight:750;cursor:pointer}.faq details p{color:var(--muted);margin-bottom:0}
+.contact{border:1px solid #2c4b48;border-radius:23px;padding:34px;background:radial-gradient(ellipse at 100% 0,#21423a50,transparent 50%),#111a28;text-align:center}.contact h2{font-size:clamp(25px,4vw,38px);margin:0 0 10px}.contact p{color:var(--muted);max-width:650px;margin:0 auto 22px}
+footer{border-top:1px solid #202b3c;padding:25px 0;color:var(--muted);font-size:13px}.footer-row{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+[dir="ltr"] nav{gap:20px}[dir="ltr"] .bullets{padding-left:20px;padding-right:0}
+@media(max-width:850px){.hero{grid-template-columns:1fr;padding:65px 0 45px}.hero-visual{max-width:560px}.projects{grid-template-columns:repeat(2,1fr)}nav{gap:13px}.about{grid-template-columns:1fr}}
+@media(max-width:600px){.nav{height:auto;min-height:65px;flex-wrap:wrap;padding:12px 0}.brand{font-size:19px}nav{width:100%;overflow:auto;white-space:nowrap;padding:3px 0 8px;order:3;font-size:13px}.hero{padding:45px 0 30px}.lead{font-size:16px}.grid,.projects,.steps{grid-template-columns:1fr}.offer{align-items:flex-start;flex-direction:column}.offer-tag{white-space:normal}.project-top{height:100px}section{padding:48px 0}.contact{padding:25px 18px}}
 </style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Orcaxo","url":"https://orcaxo.com/","description":"تطوير مواقع ويب وأدوات رقمية وتحليل بيانات للأعمال والمشروعات.","contactPoint":{"@type":"ContactPoint","contactType":"sales","telephone":"+201505761466","url":"https://wa.me/201505761466"}}
+</script>
 </head>
 <body>
-<header class="nav"><div class="wrap">
-<div class="brand">orca<b>xo</b></div>
-<a class="btn sm" data-msg="أهلاً orcaxo 👋 عايز أطلب الخدمة." href="https://wa.me/201505761466" target="_blank" rel="noopener">💬 اطلب الخدمة</a>
+<header><div class="container nav">
+<a class="brand" href="#home"><span class="logo">O</span><span>ORCAXO</span></a>
+<nav>
+<a href="#services" data-ar="خدماتنا" data-en="Services">خدماتنا</a>
+<a href="#projects" data-ar="مشاريعنا" data-en="Projects">مشاريعنا</a>
+<a href="#about" data-ar="من نحن" data-en="About">من نحن</a>
+<a href="#faq" data-ar="الأسئلة" data-en="FAQ">الأسئلة</a>
+<a href="#contact" data-ar="تواصل" data-en="Contact">تواصل</a>
+</nav>
+<button class="lang" id="langBtn" aria-label="Switch language">English</button>
 </div></header>
-
-<main class="wrap">
-<div class="hero">
-<span class="badge">🔥 عرض الإطلاق: مجاني</span>
-<h1>نخلي محلك يبيع <span>وهو نايم</span></h1>
-<p class="sub">موقع لمحلك في أيام، وتحليل بالـ AI يقولك إيه اللي بيكسّبك وإيه اللي بيخسّرك.</p>
-
-<svg class="orca" viewBox="30 80 350 215" role="img" aria-label="شعار orcaxo">
-<defs><clipPath id="bd"><path d="M45 196 C62 172 100 160 150 158 C195 156 245 162 280 176 C300 184 312 189 322 192 L322 204 C308 208 295 212 275 218 C240 230 195 240 150 240 C100 242 62 226 45 196 Z"/></clipPath></defs>
-<path d="M322 192 C335 175 352 168 364 170 C358 180 346 190 336 198 C348 206 358 218 362 232 C348 232 332 218 322 204 Z" fill="#0B1018" stroke="#4A90C2"/>
-<path d="M120 226 C118 250 125 270 140 285 C148 270 152 250 152 236 Z" fill="#0B1018" stroke="#4A90C2"/>
-<path d="M180 159 C190 135 202 112 212 96 C216 122 226 148 240 163 Z" fill="#0B1018" stroke="#4A90C2" stroke-linejoin="round"/>
-<path d="M45 196 C62 172 100 160 150 158 C195 156 245 162 280 176 C300 184 312 189 322 192 L322 204 C308 208 295 212 275 218 C240 230 195 240 150 240 C100 242 62 226 45 196 Z" fill="#0B1018"/>
-<g clip-path="url(#bd)" fill="none" stroke="#2F7FC0" stroke-width="1.3"><path d="M70 196 H108 V182 H140"/><path d="M150 176 H188 V194 H232 V180 H262"/><path d="M110 208 H170 V200 H210"/><path d="M240 200 H290 V190 H310"/></g>
-<g fill="#4A9FE0"><circle cx="70" cy="196" r="2.5"/><circle cx="140" cy="182" r="2.5"/><circle cx="150" cy="176" r="2.5"/><circle cx="262" cy="180" r="2.5"/><circle cx="210" cy="200" r="2.5"/><circle cx="310" cy="190" r="2.5"/></g>
-<path d="M48 202 C70 226 110 237 150 237 C195 237 240 227 274 217 C250 214 230 209 205 211 C170 213 130 206 100 201 C80 199 62 201 48 202 Z" fill="#E9EEF3"/>
-<path d="M205 158 C225 160 250 163 264 171 C246 175 226 173 205 167 Z" fill="#8A9AAB"/>
-<ellipse cx="94" cy="184" rx="16" ry="5" fill="#F2F6FA" transform="rotate(-18 94 184)"/>
-<path d="M45 196 C62 172 100 160 150 158 C195 156 245 162 280 176 C300 184 312 189 322 192" fill="none" stroke="#6FB0E3" stroke-width="1.3"/>
-<g stroke="#22D3EE" stroke-width="1.6" stroke-linecap="round" fill="none"><line class="flow" x1="60" y1="270" x2="330" y2="270" stroke-dasharray="14 8" opacity=".85"/><line class="flow" x1="100" y1="284" x2="290" y2="284" stroke-dasharray="6 10" opacity=".45"/></g>
-</svg>
-
-<div class="cta">
-<a class="btn" data-msg="أهلاً orcaxo 👋 عايز أطلب الخدمة. الاسم: ... نوع النشاط: ..." href="https://wa.me/201505761466" target="_blank" rel="noopener">💬 اطلب الخدمة على واتساب</a>
-<div class="num">أو كلمنا مباشرة على<br><a data-msg="أهلاً orcaxo 👋 عايز أطلب الخدمة." href="https://wa.me/201505761466" target="_blank" rel="noopener">+201505761466</a></div>
+<main>
+<section class="container hero" id="home">
+<div>
+<span class="eyebrow" data-ar="نحوّل الأفكار إلى أدوات حقيقية" data-en="Turning ideas into useful digital products">نحوّل الأفكار إلى أدوات حقيقية</span>
+<h1 data-ar="حلول رقمية تساعد مشروعك <span class='gradient'>يكبر بذكاء</span>" data-en="Digital solutions to help your business <span class='gradient'>grow smarter</span>">حلول رقمية تساعد مشروعك <span class="gradient">يكبر بذكاء</span></h1>
+<p class="lead" data-ar="نطوّر مواقع ويب عملية، ونبني أدوات رقمية، ونساعدك على فهم بيانات مشروعك. حلول واضحة، وتجربة سهلة، واهتمام بالتفاصيل التي تصنع الفرق." data-en="We build practical websites and digital tools, and help you understand your business data. Clear solutions, simple experiences, and attention to the details that matter.">نطوّر مواقع ويب عملية، ونبني أدوات رقمية، ونساعدك على فهم بيانات مشروعك. حلول واضحة، وتجربة سهلة، واهتمام بالتفاصيل التي تصنع الفرق.</p>
+<div class="actions"><a class="btn primary" href="https://wa.me/201505761466" data-ar="ابدأ مشروعك معنا ↗" data-en="Start your project ↗">ابدأ مشروعك معنا ↗</a><a class="btn secondary" href="#projects" data-ar="شاهد أعمالنا" data-en="Explore our work">شاهد أعمالنا</a></div>
 </div>
+<div class="hero-visual" aria-label="Digital services preview">
+<div class="terminal"><div class="dots"><i></i><i></i><i></i></div>
+<div class="terminal-line"><b>orcaxo</b> / digital solutions</div>
+<div class="terminal-line">&gt; website: <b>built</b></div>
+<div class="terminal-line">&gt; tools: <b>ready</b></div>
+<div class="terminal-line">&gt; insights: <b>actionable</b></div>
+<div class="terminal-line">&gt; status: <b>building...</b></div>
 </div>
-
-<section>
-<h2>عرض الإطلاق 🔥</h2>
-<p class="lead">ابدأ من غير ما تدفع. جرّب الخدمة وشوف النتيجة بنفسك.</p>
-<div class="offers">
-<div class="offer"><div class="big">60</div><div class="unit">يوم</div><span class="free">مجاني بالكامل</span><p>خدمة إنشاء الموقع مجانية لمدة 60 يوم.</p></div>
-<div class="offer"><div class="big">7</div><div class="unit">تحليلات</div><span class="free">مجانية بالكامل</span><p>تحليل بيانات بالـ AI مجاني لمدة 7 تحليلات.</p></div>
+<div class="mini-cards"><div class="mini"><strong>01</strong><span data-ar="مواقع ويب" data-en="Websites">مواقع ويب</span></div><div class="mini"><strong>02</strong><span data-ar="أدوات رقمية" data-en="Digital tools">أدوات رقمية</span></div><div class="mini"><strong>03</strong><span data-ar="تحليل بيانات" data-en="Data analysis">تحليل بيانات</span></div><div class="mini"><strong>04</strong><span data-ar="تطوير مستمر" data-en="Continuous improvement">تطوير مستمر</span></div></div>
 </div>
 </section>
 
-<section id="services">
-<h2>خدمتين بس. واضحين.</h2>
-<p class="lead">الموقع بيجيب الزباين، والتحليل بيقولك الزباين دي بتعمل إيه.</p>
-<div class="cards">
+<section id="services"><div class="container">
+<div class="section-head"><h2 data-ar="خدماتنا" data-en="What we do">خدماتنا</h2><p data-ar="نركز على حلول مفيدة فعلًا، من حضورك على الإنترنت إلى فهم الأرقام وراء عملك." data-en="We focus on useful solutions—from your online presence to understanding the numbers behind your business.">نركز على حلول مفيدة فعلًا، من حضورك على الإنترنت إلى فهم الأرقام وراء عملك.</p></div>
+<div class="grid">
+<article class="service"><div class="service-icon">🌐</div><h3 data-ar="إنشاء وتطوير المواقع" data-en="Website creation & development">إنشاء وتطوير المواقع</h3><p data-ar="موقع يعرض خدماتك أو منتجاتك بطريقة احترافية، ويسهّل على العميل فهم ما تقدمه والتواصل أو الطلب." data-en="A professional website for your services or products that helps visitors understand your offer and contact or order from you.">موقع يعرض خدماتك أو منتجاتك بطريقة احترافية، ويسهّل على العميل فهم ما تقدمه والتواصل أو الطلب.</p><ul class="bullets"><li data-ar="صفحات تعريفية ومواقع للشركات" data-en="Business and company websites">صفحات تعريفية ومواقع للشركات</li><li data-ar="صفحات هبوط للحملات والمنتجات" data-en="Landing pages for campaigns and products">صفحات هبوط للحملات والمنتجات</li><li data-ar="تصميم متوافق مع الموبايل" data-en="Mobile-friendly responsive design">تصميم متوافق مع الموبايل</li></ul></article>
+<article class="service"><div class="service-icon">📊</div><h3 data-ar="تحليل البيانات بمساعدة الذكاء الاصطناعي" data-en="AI-assisted data analysis">تحليل البيانات بمساعدة الذكاء الاصطناعي</h3><p data-ar="نحوّل ملفات المبيعات والأرقام إلى ملخصات ورسوم وملاحظات تساعدك تكتشف الاتجاهات وتفهم أداء المشروع." data-en="We turn sales files and numbers into summaries, charts, and insights that help you spot trends and understand performance.">نحوّل ملفات المبيعات والأرقام إلى ملخصات ورسوم وملاحظات تساعدك تكتشف الاتجاهات وتفهم أداء المشروع.</p><ul class="bullets"><li data-ar="فهم المنتجات الأكثر والأقل مبيعًا" data-en="Identify best- and slow-moving products">فهم المنتجات الأكثر والأقل مبيعًا</li><li data-ar="متابعة التغيرات والاتجاهات" data-en="Track changes and trends">متابعة التغيرات والاتجاهات</li><li data-ar="تقارير مبسطة لدعم القرار" data-en="Clear reports to support decisions">تقارير مبسطة لدعم القرار</li></ul></article>
+<article class="service"><div class="service-icon">🧰</div><h3 data-ar="أدوات ويب وحلول مخصصة" data-en="Web tools & custom solutions">أدوات ويب وحلول مخصصة</h3><p data-ar="نصمم أدوات صغيرة أو تطبيقات ويب لحل مهمة محددة، ونركز على سهولة الاستخدام وسرعة الوصول للنتيجة." data-en="We create focused tools and web apps for specific tasks, prioritizing ease of use and quick results.">نصمم أدوات صغيرة أو تطبيقات ويب لحل مهمة محددة، ونركز على سهولة الاستخدام وسرعة الوصول للنتيجة.</p><ul class="bullets"><li data-ar="حاسبات ونماذج تفاعلية" data-en="Calculators and interactive forms">حاسبات ونماذج تفاعلية</li><li data-ar="أدوات معالجة وتنظيم" data-en="Processing and organization tools">أدوات معالجة وتنظيم</li><li data-ar="تطوير الفكرة إلى نموذج قابل للتجربة" data-en="Turn an idea into a working prototype">تطوير الفكرة إلى نموذج قابل للتجربة</li></ul></article>
+<article class="service"><div class="service-icon">⚙️</div><h3 data-ar="تحسين وتطوير المنتجات الرقمية" data-en="Digital product improvement">تحسين وتطوير المنتجات الرقمية</h3><p data-ar="نراجع تجربة الاستخدام والمحتوى والأداء، ونساعد في تحسين مشروع قائم خطوة بخطوة حسب الأولويات." data-en="We review usability, content, and performance, then help improve an existing product step by step.">نراجع تجربة الاستخدام والمحتوى والأداء، ونساعد في تحسين مشروع قائم خطوة بخطوة حسب الأولويات.</p><ul class="bullets"><li data-ar="تطوير صفحات ومميزات جديدة" data-en="New pages and features">تطوير صفحات ومميزات جديدة</li><li data-ar="تحسين تجربة المستخدم" data-en="User experience improvements">تحسين تجربة المستخدم</li><li data-ar="تنظيم المحتوى والبنية" data-en="Content and structure improvements">تنظيم المحتوى والبنية</li></ul></article>
+</div>
+</div></section>
 
-<div class="card">
-<div class="ico">🌐</div>
-<h3>إنشاء موقع</h3>
-<span class="tag">مجاني 60 يوم</span>
-<p>بنعملك موقع لمحلك في أيام، مش شهور. صفحة هبوط سريعة لو عايز تبيع منتج واحد، أو موقع كامل لو عايز تعرض كل منتجاتك وتستقبل طلبات.</p>
-<h4>لمين الخدمة دي؟</h4>
-<ul><li>صاحب محل عنده بضاعة وماعندوش موقع</li><li>صاحب مطعم عايز الناس تطلب منه أونلاين</li><li>أي حد عايز يبان إنه براند، مش مجرد محل في الشارع</li></ul>
-<a class="btn out" data-msg="أهلاً orcaxo 👋 عايز أطلب خدمة إنشاء موقع (مجاني 60 يوم). الاسم: ... نوع النشاط: ..." href="https://wa.me/201505761466" target="_blank" rel="noopener">اطلب موقعك</a>
-</div>
+<section><div class="container"><div class="offer">
+<div><h3 data-ar="عرض إطلاق محدود" data-en="Launch offer">عرض إطلاق محدود</h3><p data-ar="نقدّم حاليًا فرصة تجربة إنشاء موقع مجانًا لمدة 60 يومًا، و7 تحليلات بيانات مجانية. تفاصيل وشروط التنفيذ تُحدد قبل بدء العمل." data-en="Currently, website creation is offered with a 60-day free trial, plus 7 free data analyses. Scope and terms are agreed before work begins.">نقدّم حاليًا فرصة تجربة إنشاء موقع مجانًا لمدة 60 يومًا، و7 تحليلات بيانات مجانية. تفاصيل وشروط التنفيذ تُحدد قبل بدء العمل.</p></div><span class="offer-tag" data-ar="60 يوم + 7 تحليلات" data-en="60 days + 7 analyses">60 يوم + 7 تحليلات</span>
+</div></div></section>
 
-<div class="card">
-<div class="ico">📊</div>
-<h3>تحليل بيانات بالـ AI</h3>
-<span class="tag">7 تحليلات مجانية</span>
-<p>ابعت لنا بيانات مبيعاتك، وهنرجعلك تقرير بالـ AI يقولك: إيه أكتر حاجة بتتباع، إمتى المبيعات بتقع، وإيه اللي لازم تغيره عشان تبيع أكتر.</p>
-<h4>لمين الخدمة دي؟</h4>
-<ul><li>صاحب محل بيبيع بس مش عارف بيكسب من إيه وبيخسر من إيه</li><li>صاحب محل عنده بيانات كتير ومش عارف يقراها</li><li>أي حد عايز ياخد قرار صح، مش بالحظ</li></ul>
-<a class="btn out" data-msg="أهلاً orcaxo 👋 عايز أطلب خدمة تحليل بيانات بالـ AI (7 تحليلات مجانية). الاسم: ... نوع النشاط: ..." href="https://wa.me/201505761466" target="_blank" rel="noopener">اطلب تحليل بياناتك</a>
+<section id="projects"><div class="container">
+<div class="section-head"><h2 data-ar="مشاريع بنيناها بالفعل" data-en="Projects we've built">مشاريع بنيناها بالفعل</h2><p data-ar="نماذج من مشاريعنا الرقمية وتجاربنا العملية. كل مشروع له هدف واضح وأداة أو محتوى يساعد مستخدمه." data-en="A selection of our digital projects and hands-on work. Each project has a clear purpose and tools or content to help its users.">نماذج من مشاريعنا الرقمية وتجاربنا العملية. كل مشروع له هدف واضح وأداة أو محتوى يساعد مستخدمه.</p></div>
+<div class="projects">
+<article class="project"><div class="project-top"><span class="project-label">ID Tools</span></div><div class="project-body"><span class="tag">Indonesia · Utilities</span><h3>أدوات مجانية للمستخدم الإندونيسي</h3><p data-ar="مولّد أسماء للألعاب، وصانع روابط واتساب، وحاسبة العمر وتاريخ الميلاد في واجهة واحدة." data-en="A game nickname generator, WhatsApp link maker, and age and birthday calculator in one place.">مولّد أسماء للألعاب، وصانع روابط واتساب، وحاسبة العمر وتاريخ الميلاد في واجهة واحدة.</p><a class="project-link" href="https://id.orcaxo.com" target="_blank" rel="noopener">id.orcaxo.com ↗</a></div></article>
+<article class="project"><div class="project-top"><span class="project-label">VUR</span></div><div class="project-body"><span class="tag">Vietnam · Gaming</span><h3>مولّد أسماء مزخرفة</h3><p data-ar="أداة لإنشاء أسماء وشخصيات Unicode مناسبة للألعاب وشبكات التواصل، مع نسخ النتيجة بسهولة." data-en="A tool for stylish Unicode names for games and social platforms, with easy copy functionality.">أداة لإنشاء أسماء وشخصيات Unicode مناسبة للألعاب وشبكات التواصل، مع نسخ النتيجة بسهولة.</p><a class="project-link" href="https://vur.orcaxo.com" target="_blank" rel="noopener">vur.orcaxo.com ↗</a></div></article>
+<article class="project"><div class="project-top"><span class="project-label">Khafif</span></div><div class="project-body"><span class="tag">Image tools</span><h3>خفيف — أدوات الصور</h3><p data-ar="ضغط الصور وتحويل الصيغ وتغيير المقاسات. تتم المعالجة الأساسية داخل المتصفح دون رفع الصور للخادم." data-en="Compress, convert, and resize images. Core processing runs in the browser without uploading images to the server.">ضغط الصور وتحويل الصيغ وتغيير المقاسات. تتم المعالجة الأساسية داخل المتصفح دون رفع الصور للخادم.</p><a class="project-link" href="https://khafif.orcaxo.com" target="_blank" rel="noopener">khafif.orcaxo.com ↗</a></div></article>
+<article class="project"><div class="project-top"><span class="project-label">ShiftCalc</span></div><div class="project-body"><span class="tag">Work & pay</span><h3>حاسبات العمل والراتب</h3><p data-ar="حساب ساعات العمل والإضافي والراتب والورديات وفترات الراحة، مع أدوات عملية بدون تسجيل." data-en="Calculate working hours, overtime, pay, shifts, and breaks with practical tools and no sign-up.">حساب ساعات العمل والإضافي والراتب والورديات وفترات الراحة، مع أدوات عملية بدون تسجيل.</p><a class="project-link" href="https://shiftcalc.orcaxo.com" target="_blank" rel="noopener">shiftcalc.orcaxo.com ↗</a></div></article>
+<article class="project"><div class="project-top"><span class="project-label">GE Law Guide</span></div><div class="project-body"><span class="tag">Arabic · Germany</span><h3>دليل قانون الإقامة الألماني</h3><p data-ar="مشروع يساعد القارئ العربي على الوصول إلى مواد قانون الإقامة الألماني، مع ترجمة عربية وشرح مبسّط، مع التنبيه إلى أن النص الرسمي هو المرجع." data-en="An Arabic guide to Germany's residence law, presenting legal sections with Arabic translation and simplified explanations. The official text remains authoritative.">مشروع يساعد القارئ العربي على الوصول إلى مواد قانون الإقامة الألماني، مع ترجمة عربية وشرح مبسّط، مع التنبيه إلى أن النص الرسمي هو المرجع.</p><a class="project-link" href="https://ge.orcaxo.com" target="_blank" rel="noopener">ge.orcaxo.com ↗</a></div></article>
+<article class="project"><div class="project-top"><span class="project-label">Law</span></div><div class="project-body"><span class="tag">Legal information</span><h3>مشروع قانوني رقمي</h3><p data-ar="واجهة وتجربة مشروع قانوني ضمن محاولاتنا لبناء محتوى منظم وأدوات وصول إلى المعلومات." data-en="A legal-information project interface, part of our effort to organize content and make information easier to access.">واجهة وتجربة مشروع قانوني ضمن محاولاتنا لبناء محتوى منظم وأدوات وصول إلى المعلومات.</p><a class="project-link" href="https://law.orcaxo.com" target="_blank" rel="noopener">law.orcaxo.com ↗</a></div></article>
+<article class="project"><div class="project-top"><span class="project-label">Orcaxo</span></div><div class="project-body"><span class="tag">Main platform</span><h3>المنصة الرئيسية</h3><p data-ar="الموقع الذي يجمع خدماتنا، ويعرض طريقة عملنا، ويتيح لأصحاب المشاريع التواصل لبدء تنفيذ أفكارهم." data-en="Our main platform presenting services, how we work, and a contact point for businesses to start their projects.">الموقع الذي يجمع خدماتنا، ويعرض طريقة عملنا، ويتيح لأصحاب المشاريع التواصل لبدء تنفيذ أفكارهم.</p><a class="project-link" href="https://orcaxo.com" target="_blank" rel="noopener">orcaxo.com ↗</a></div></article>
 </div>
+</div></section>
 
-</div>
-</section>
+<section id="about"><div class="container about">
+<div class="about-box"><h2 data-ar="من نحن؟" data-en="Who we are">من نحن؟</h2><p data-ar="Orcaxo مساحة لبناء حلول رقمية عملية. نبدأ من مشكلة واضحة، نفهم احتياج المستخدم، ثم نصمم ونطوّر أداة أو موقعًا يساعد على حلها. نؤمن أن المنتج الجيد مش لازم يكون معقد؛ لازم يكون مفيدًا، واضحًا، وسهل الاستخدام." data-en="Orcaxo is a place for building practical digital solutions. We start with a clear problem, understand the user, then design and develop a website or tool that helps solve it. Good products don't need to be complicated—they need to be useful, clear, and easy to use.">Orcaxo مساحة لبناء حلول رقمية عملية. نبدأ من مشكلة واضحة، نفهم احتياج المستخدم، ثم نصمم ونطوّر أداة أو موقعًا يساعد على حلها. نؤمن أن المنتج الجيد مش لازم يكون معقد؛ لازم يكون مفيدًا، واضحًا، وسهل الاستخدام.</p><p data-ar="نطوّر مشاريعنا الخاصة بالتوازي مع تقديم حلول حسب احتياج العملاء، ونتعامل مع كل مشروع باعتباره فرصة للتعلم والتحسين." data-en="We build our own products while creating solutions tailored to clients, treating every project as an opportunity to learn and improve.">نطوّر مشاريعنا الخاصة بالتوازي مع تقديم حلول حسب احتياج العملاء، ونتعامل مع كل مشروع باعتباره فرصة للتعلم والتحسين.</p></div>
+<div class="values"><div class="value"><b data-ar="البساطة" data-en="Simplicity">البساطة</b><div data-ar="تجربة سهلة من غير تعقيد غير ضروري." data-en="An easy experience without unnecessary complexity.">تجربة سهلة من غير تعقيد غير ضروري.</div></div><div class="value"><b data-ar="الوضوح" data-en="Clarity">الوضوح</b><div data-ar="نعرض ما نقدمه وحدود كل خدمة بوضوح." data-en="We clearly explain what we offer and each service's scope.">نعرض ما نقدمه وحدود كل خدمة بوضوح.</div></div><div class="value"><b data-ar="التطوير المستمر" data-en="Continuous improvement">التطوير المستمر</b><div data-ar="نتعلم من الاستخدام ونحسّن منتجاتنا مع الوقت." data-en="We learn from usage and improve our products over time.">نتعلم من الاستخدام ونحسّن منتجاتنا مع الوقت.</div></div></div>
+</div></section>
 
-<div class="final">
-<h2>ابعت لنا بياناتك، وسيب الباقي علينا.</h2>
-<p class="lead" style="margin-bottom:0">احنا هنحللها، وهنقولك تعمل إيه.</p>
-<div class="cta">
-<a class="btn" data-msg="أهلاً orcaxo 👋 عايز أطلب الخدمة. الاسم: ... نوع النشاط: ..." href="https://wa.me/201505761466" target="_blank" rel="noopener">💬 اطلب الخدمة على واتساب</a>
-<div class="num">رقم واتساب<br><a data-msg="أهلاً orcaxo 👋 عايز أطلب الخدمة." href="https://wa.me/201505761466" target="_blank" rel="noopener">+201505761466</a></div>
-</div>
-</div>
+<section id="faq"><div class="container">
+<div class="section-head"><h2 data-ar="أسئلة متكررة" data-en="Frequently asked questions">أسئلة متكررة</h2><p data-ar="إجابات مختصرة على أسئلة قد تكون عندك قبل التواصل." data-en="Quick answers to questions you may have before reaching out.">إجابات مختصرة على أسئلة قد تكون عندك قبل التواصل.</p></div>
+<div class="faq">
+<details><summary data-ar="ما نوع المواقع التي يمكنكم تنفيذها؟" data-en="What kinds of websites do you build?">ما نوع المواقع التي يمكنكم تنفيذها؟</summary><p data-ar="نستقبل طلبات المواقع التعريفية، وصفحات الهبوط، ومواقع عرض المنتجات والخدمات، وأفكار أدوات الويب. نحدد نطاق المشروع والميزات المطلوبة قبل الاتفاق." data-en="We work on business websites, landing pages, product and service showcases, and web-tool concepts. We define the scope and requirements before agreeing.">نستقبل طلبات المواقع التعريفية، وصفحات الهبوط، ومواقع عرض المنتجات والخدمات، وأفكار أدوات الويب. نحدد نطاق المشروع والميزات المطلوبة قبل الاتفاق.</p></details>
+<details><summary data-ar="هل عرض إنشاء الموقع مجاني فعلًا؟" data-en="Is the website offer really free?">هل عرض إنشاء الموقع مجاني فعلًا؟</summary><p data-ar="عرض الإطلاق الحالي يشمل 60 يومًا مجانية. نتفق مسبقًا على تفاصيل التنفيذ وأي تكاليف خارج نطاق العرض، مثل الخدمات الخارجية أو الدومين أو الاستضافة إذا لزم الأمر." data-en="The current launch offer includes 60 free days. We agree in advance on scope and any costs outside the offer, such as external services, domain, or hosting if needed.">عرض الإطلاق الحالي يشمل 60 يومًا مجانية. نتفق مسبقًا على تفاصيل التنفيذ وأي تكاليف خارج نطاق العرض، مثل الخدمات الخارجية أو الدومين أو الاستضافة إذا لزم الأمر.</p></details>
+<details><summary data-ar="ما البيانات التي يمكن تحليلها؟" data-en="What data can you analyze?">ما البيانات التي يمكن تحليلها؟</summary><p data-ar="يمكن مراجعة ملفات جداول مثل CSV أو Excel وبيانات المبيعات أو سجلات بسيطة، حسب جودة البيانات والهدف. قبل إرسال بيانات حساسة، تواصل معنا لتحديد طريقة مناسبة وآمنة." data-en="We can review spreadsheet files such as CSV or Excel, sales data, and simple records depending on data quality and goals. Contact us before sharing sensitive information to agree on an appropriate method.">يمكن مراجعة ملفات جداول مثل CSV أو Excel وبيانات المبيعات أو سجلات بسيطة، حسب جودة البيانات والهدف. قبل إرسال بيانات حساسة، تواصل معنا لتحديد طريقة مناسبة وآمنة.</p></details>
+<details><summary data-ar="هل يمكن تطوير موقع موجود بالفعل؟" data-en="Can you improve an existing website?">هل يمكن تطوير موقع موجود بالفعل؟</summary><p data-ar="نعم، يمكننا مناقشة تحسين الصفحات أو إضافة أدوات ومميزات أو مراجعة تجربة الاستخدام والمحتوى، وفقًا للتقنيات المستخدمة وحجم العمل." data-en="Yes. We can discuss page improvements, new tools or features, and usability or content reviews, depending on the existing technology and scope.">نعم، يمكننا مناقشة تحسين الصفحات أو إضافة أدوات ومميزات أو مراجعة تجربة الاستخدام والمحتوى، وفقًا للتقنيات المستخدمة وحجم العمل.</p></details>
+<details><summary data-ar="كيف أبدأ؟" data-en="How do I get started?">كيف أبدأ؟</summary><p data-ar="أرسل لنا رسالة على واتساب فيها فكرة مشروعك، والهدف منه، وأي أمثلة تعجبك. نرد عليك لمناقشة الخطوات التالية." data-en="Send us a WhatsApp message with your idea, its goal, and any examples you like. We'll discuss the next steps with you.">أرسل لنا رسالة على واتساب فيها فكرة مشروعك، والهدف منه، وأي أمثلة تعجبك. نرد عليك لمناقشة الخطوات التالية.</p></details>
+</div></div></section>
+<section id="contact"><div class="container"><div class="contact"><h2 data-ar="عندك فكرة؟ خلينا نحولها لمشروع." data-en="Have an idea? Let's turn it into a project.">عندك فكرة؟ خلينا نحولها لمشروع.</h2><p data-ar="احكيلنا عن مشروعك أو المشكلة التي تريد حلها. ابدأ برسالة بسيطة، وسنناقش معك إمكانية التنفيذ والخطوات المناسبة." data-en="Tell us about your project or the problem you want to solve. Start with a simple message, and we'll discuss feasibility and next steps.">احكيلنا عن مشروعك أو المشكلة التي تريد حلها. ابدأ برسالة بسيطة، وسنناقش معك إمكانية التنفيذ والخطوات المناسبة.</p><a class="btn primary" href="https://wa.me/201505761466" data-ar="تواصل معنا على واتساب ↗" data-en="Contact us on WhatsApp ↗">تواصل معنا على واتساب ↗</a></div></div></section>
 </main>
-
-<footer><div class="wrap">© <b>orcaxo</b> · software &amp; systems</div></footer>
-
+<footer><div class="container footer-row"><span>© <span id="year"></span> Orcaxo · software & digital solutions</span><span data-ar="مواقع وأدوات رقمية — نصممها ونطوّرها." data-en="Digital websites and tools — designed and developed with care.">مواقع وأدوات رقمية — نصممها ونطوّرها.</span></div></footer>
 <script>
-(function(){
-var N="201505761466";
-var links=document.querySelectorAll("[data-msg]");
-for(var i=0;i<links.length;i++){
-links[i].href="https://wa.me/"+N+"?text="+encodeURIComponent(links[i].getAttribute("data-msg"));
+const btn=document.getElementById('langBtn');
+let lang='ar';
+function setLang(next){
+ lang=next;document.documentElement.lang=lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';
+ document.querySelectorAll('[data-ar][data-en]').forEach(el=>{el.innerHTML=el.dataset[lang]});
+ btn.textContent=lang==='ar'?'English':'العربية';
 }
-})();
+btn.addEventListener('click',()=>setLang(lang==='ar'?'en':'ar'));
+document.getElementById('year').textContent=new Date().getFullYear();
 </script>
-</body>
-</html>
-
+</body></html>
